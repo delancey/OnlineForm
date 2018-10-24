@@ -1,0 +1,295 @@
+/*All form style 320*/
+
+*{
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+font-weight: 300;
+ }
+
+.container{
+	width: 300px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+.action p,
+#copyright{
+  text-align: center;
+  font-weight: 300; 
+}
+
+h2,
+p,
+label{
+  color: #2d3945;
+}
+
+h1{
+	background-color: #4ebbb5;
+	color: white;
+	font-size: 20px;
+	padding: 26px 0;
+	letter-spacing: .5px;	
+}
+
+h2{
+	font-size: 18px;
+	font-weight: 700
+}
+
+/*header style 320*/
+header{
+	width: 320px;
+	margin: 0 auto;
+}
+
+section{
+    margin: auto;
+    width: 280px;   
+	border-bottom: 4px solid #2D3945;
+}
+
+section p{
+	color: #9da3a8;
+  	font-weight: 300;
+    text-align: center;
+}
+/* end header style 320*/
+
+/*general form style 320*/
+
+form{
+    margin: 0 auto;
+    width: 280px;
+	border-top: 2px solid #2D3945;
+	margin-top: 4px;
+	padding-top: 24px;
+}
+
+fieldset{
+	border: none;
+    padding: 0;
+    margin: 0; 
+  }
+
+label[for^="nam"]{
+	margin-top: 15px;
+}
+legend{
+  	color: #3b4650;
+	font-size: 18px;
+	font-weight: bold;
+  	padding-top: 0;
+}
+/*end general form style 320*/
+
+/*form contact style 320*/
+#contact{
+	padding-bottom: 25px;
+}
+
+textarea:focus, 
+input:focus, 
+input[type]:focus,  
+.uneditable-input:focus {   
+    border-color: #2d3945;
+    box-shadow: none;
+    outline: none;
+	caret-color: #2d3945;
+	background-color: #d5efed;	
+}
+
+input:active, 
+option:active{
+	box-shadow: none;
+	border: 2px solid #2d3945;   
+	border-radius: .5em;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea{
+    border: none;
+	background-color:#eff0f1;
+	width: 260px;
+	height: 45px;
+	padding-left: 20px;
+	margin: 10px auto 32px auto;	 
+}
+
+::placeholder{
+    font-style: italic;
+	text-align: right;
+	padding-right: 10px;
+    color: #a8adb2;    
+}
+
+#phone::placeholder,
+#address::placeholder,
+#city::placeholder,#zip::placeholder{
+	text-align: left;
+}
+
+select{
+	margin-bottom: 2em;
+	margin-top: 10px;
+	width: 280px;
+	height: 45px;
+	background-color:#eff0f1;
+	color: #a8adb2;
+	font-size: 12px;
+}
+select:focus{
+	box-shadow: none;
+	border: 2px solid #2d3945;
+	border-radius: .5em;
+	outline:none;
+	background-color: #d5efed;
+}
+
+#zip{
+	width: 50%;
+	display:block;
+	margin-left: 0;
+}
+
+/*end form contact style 320*/
+
+/*form newsletter style 320*/
+
+input[type="checkbox"],
+input[type="radio"]{
+	width: 25px;
+	height:auto;
+	display: inline-block;
+}
+
+.solid{
+    border-bottom:3px solid #2D3945;
+    margin-bottom: 32px;
+    width: 280px;
+}
+
+.newsletters,
+.radio{
+	height: 3em;
+    width: 170px;
+}
+
+fieldset p {
+	margin-top: 25px;
+}
+
+textarea[name^="commen"]{
+	height: 100px;  
+}
+
+button{
+	background-color: #4ebbb5;
+	color: white;
+	font-size: 20px;
+	height: 55px;
+	width: 100%;
+	border-radius: .2em;
+}
+
+#copyright{
+	color: #9da3a8;
+	font-style: italic;
+	font-weight: 300;
+	margin-top:20px;
+}
+
+/*end form newsletter style 320*/
+	
+
+
+
+/*---------	Desktop Form Style   -----------*/
+
+@media screen and (min-width: 768px) {
+ 		
+/*  all form style 768*/
+	.container{
+		width: 750px;
+		margin: 0 auto;
+	}
+/*	end all form style 768*/
+  
+  
+/*  header style 768*/ 
+  
+	header{
+		width: auto;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	section{
+		margin: auto;
+		margin-top:60px;
+		width: 750px;   
+		border-bottom: 4px solid #2D3945;
+	}
+
+	section p{
+		color: #9da3a8;
+		font-size: 16px;	
+		font-weight: 300;
+		text-align: center;
+		margin-bottom:40px;
+	}
+/*end header style 768*/
+		
+
+	form{
+		width: auto;
+	}
+/*  contact style 768*/
+	label{
+		width: 120px;
+		display: inline-block;
+		padding-right:15px;
+    
+	}
+	#contact{
+		padding-top: 20px;
+	}
+  
+	input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+	textarea{
+		width:590px;
+		padding-left: 20px;
+	}
+	
+	input[checkbox]:focus,
+    input[radio]:focus{
+		width:inherit;
+		padding-left: 20px;
+	}
+	
+	select{
+		width: 611px;
+	}
+
+	
+	#zip{
+		width: 25%;
+		display:inline-block;
+	}
+	 
+	.solid{
+		width: 750px;
+	}
+
+	textarea[name^="commen"]{
+		height: 100px;
+		width: 97%;
+	}
+}
+
+/*  end contact style 768*/
+	

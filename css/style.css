@@ -45,15 +45,15 @@ header{
 }
 
 section{
-    margin: auto;
-    width: 280px;   
+    	margin: auto;
+   	 width: 280px;   
 	border-bottom: 4px solid #2D3945;
 }
 
 section p{
 	color: #9da3a8;
   	font-weight: 300;
-    text-align: center;
+    	text-align: center;
 }
 /* end header style 320*/
 
@@ -69,8 +69,8 @@ form{
 
 fieldset{
 	border: none;
-    padding: 0;
-    margin: 0; 
+    	padding: 0;
+    	margin: 0; 
   }
 
 label[for^="nam"]{
@@ -93,9 +93,9 @@ textarea:focus,
 input:focus, 
 input[type]:focus,  
 .uneditable-input:focus {   
-    border-color: #2d3945;
-    box-shadow: none;
-    outline: none;
+    	border-color: #2d3945;
+    	box-shadow: none;
+    	outline: none;
 	caret-color: #2d3945;
 	background-color: #d5efed;	
 }
@@ -111,7 +111,7 @@ input[type="text"],
 input[type="tel"],
 input[type="email"],
 textarea{
-    border: none;
+    	border: none;
 	background-color:#eff0f1;
 	width: 260px;
 	height: 45px;
@@ -120,10 +120,10 @@ textarea{
 }
 
 ::placeholder{
-    font-style: italic;
+    	font-style: italic;
 	text-align: right;
 	padding-right: 10px;
-    color: #a8adb2;    
+    	color: #a8adb2;    
 }
 
 #phone::placeholder,
@@ -175,7 +175,7 @@ input[type="radio"]{
 .newsletters,
 .radio{
 	height: 3em;
-    width: 170px;
+    	width: 170px;
 }
 
 fieldset p {
@@ -193,6 +193,15 @@ button{
 	height: 55px;
 	width: 100%;
 	border-radius: .2em;
+}
+
+button:hover{
+	transition-duration: 1s;
+	background-color: #fb771f;
+}
+
+button:active{
+background-color: #e35d04;
 }
 
 #copyright{
@@ -229,7 +238,8 @@ button{
 	section{
 		margin: auto;
 		margin-top:60px;
-		width: 750px;   
+		margin-bottom: 3px;
+		width: 718px;   
 		border-bottom: 4px solid #2D3945;
 	}
 
@@ -245,6 +255,7 @@ button{
 
 	form{
 		width: auto;
+		margin: 0 16px;
 	}
 /*  contact style 768*/
 	label{
@@ -258,21 +269,21 @@ button{
 	}
   
 	input[type="text"],
-    input[type="tel"],
-    input[type="email"],
+    	input[type="tel"],
+    	input[type="email"],
 	textarea{
-		width:590px;
+		width:555px;
 		padding-left: 20px;
 	}
 	
 	input[checkbox]:focus,
-    input[radio]:focus{
+    	input[radio]:focus{
 		width:inherit;
 		padding-left: 20px;
 	}
 	
 	select{
-		width: 611px;
+		width: 579px;
 	}
 
 	
@@ -282,9 +293,13 @@ button{
 	}
 	 
 	.solid{
-		width: 750px;
+		width: 718px;
 	}
-
+	
+	label[for^="commen"]{
+		width: auto;
+	}
+	
 	textarea[name^="commen"]{
 		height: 100px;
 		width: 97%;
